@@ -1,3 +1,10 @@
+# BREAKAGES
+
+- switched node:8 to node-alpine to fix out-of-date npm build errors;
+- still getting postgres errors: connection refused on api calls, assuming a versioning problem
+
+
+
 # TODO-Fullstack-App-Go-Gin-Postgres-React
 ![Test Coverage](backend/api/coverage_badge.png)
 

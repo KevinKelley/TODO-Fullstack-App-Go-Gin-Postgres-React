@@ -1,9 +1,11 @@
-FROM node:8
+FROM node:alpine 
+# was node:8
 
 WORKDIR /app
 COPY . ./
 
-RUN npm install --silent
+RUN npm install 
+#--silent
 
 EXPOSE 3000
 
